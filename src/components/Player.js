@@ -75,29 +75,7 @@ function Player(props) {
 
         <div class="player__footer">
           <ul class="list list--footer">
-            <li>
-              <a href="#" class="list__link">
-                <i class="fa fa-heart-o"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="list__link">
-                <i class="fa fa-random"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="list__link">
-                <i class="fa fa-undo"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="list__link">
-                <i class="fa fa-ellipsis-h"></i>
-              </a>
-            </li>
+           
           </ul>
         </div>
 

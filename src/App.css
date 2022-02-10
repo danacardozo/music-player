@@ -22,7 +22,7 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: url("") repeat 0 0;
+
   animation: background-scroll 6s infinite;
   animation-timing-function: linear;
 }
@@ -73,11 +73,7 @@ body {
 .range:before {
   width: 3rem;
   height: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(211, 3, 32, 0.5),
-    rgba(211, 3, 32, 0.85)
-  );
+ 
   border-radius: 0.25rem;
   overflow: hidden;
 }
@@ -194,13 +190,7 @@ body {
   list-style-type: none;
 }
 
-.list__link {
-  transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
-}
-.list__link:focus,
-.list__link:hover {
-  color: #d30320;
-}
+
 
 .player__footer {
   padding-top: 1rem;
